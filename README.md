@@ -18,10 +18,10 @@ It scrapes official site data and uses Retrieval-Augmented Generation (RAG) with
 - Fast vector search using FAISS
 
 ## Process
-Web Scraping: Used Python to scrape data across multiple sitemaps and nested links
-Preprocessing: Cleaned the data to format non-ascii characters 
-Embedding: Used RecursiveCharacterTextSplitter and stored their embeddings in FAISS for efficient vector based similarity search
-RAG Pipeline: connected LangChain with OpenAI’s GPT-4 to build RetrievalQA pipeline
-Memory: Used LangChain’s memory module to implement conversation awareness
+- Web Scraping: Used Python to scrape data across multiple sitemaps and nested links
+- Preprocessing: Cleaned the data to format non-ascii characters 
+- Embedding: Used RecursiveCharacterTextSplitter and stored their embeddings in FAISS for efficient vector based similarity search
+- RAG Pipeline: connected LangChain with OpenAI’s GPT-4 to build RetrievalQA pipeline
+- Memory: Used LangChain’s memory module to implement conversation awareness
 
 
